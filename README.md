@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "first_bucket" {
     Environment = "Dev"
   }
 }
-- update tags and cross check in aws s3: 
+- update tags and cross check in aws s3: this will be updaed by the help of statefile which is created when hit: tf apply
 #create s3 bucket
 resource "aws_s3_bucket" "first_bucket" {
   bucket = "firsts3bucket-2026"
